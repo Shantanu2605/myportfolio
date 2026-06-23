@@ -81,3 +81,7 @@ body{
 .token p:hover{
     background-color: rgb(73 73 73);
 }
+
+body {
+  cursor: url('https://img.freepik.com/premium-photo/glowing-galaxy-spiral-inside-metallic-computer-cursor-mouse-pointer-white-background_891301-20709.jpg?semt=ais_hybrid&w=740&q=80'), auto;
+}

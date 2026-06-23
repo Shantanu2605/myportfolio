@@ -14,7 +14,7 @@ const Navbar = () => {
     <div>
         <nav className='flex-col md:flex-row max-lg:text-center flex justify-between bg-[#161B22] text-white items-center px-2.5 py-1'>
             <div className="logo flex flex-col justify-center"><h2 className='font-[Audiowide]'>SHANTANU KUMAR SINGH</h2><p className='text-gray-300 font-[SN Pro]'>CSE Student @DTU</p></div>
-            <div className="resume text-xl bg-[#6d05d1] font-[Audiowide] px-1.5 rounded-md hover:bg-[#4b0291] py-1"><Link to="../Resume.pdf" download="/" reloadDocument>Resume ↗</Link></div>
+            <div className="resume text-xl bg-[#6d05d1] font-[Audiowide] px-1.5 rounded-md hover:bg-[#4b0291] py-1"><Link to="./documents/Resume.pdf" download="/" reloadDocument>Resume ↗</Link></div>
         </nav>
 
         <nav className='fixed bottom-0 flex justify-between items-center max-lg:h-[13%] text-white w-full px-[7%] md:px-9.5 py-1 bg-[#161B22] '>

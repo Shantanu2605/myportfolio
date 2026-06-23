@@ -7,8 +7,8 @@ const Home = () => {
         <div className='flex gap-4 flex-col justify-center item-center font-[Roboto] text-[20px] text-center'><div><p className='text-[red] text-3xl'>  Shantanu Kumar Singh</p> <p className='text-green-200'>Programmer | Problem Solver</p>
         <p className='text-green-200'>Passionate about Science & Technology  </p></div> <div className='flex flex-col gap-2'><p>Building projects and continuously learning new technologies to solve real-world problems</p>
          <p>Lets connect and learn from each other!</p></div>
-         <div className="buttons max-lg:flex-col flex justify-center gap-4"><Link to="/projects" className='bg-[green] hover:bg-[#015c01] px-2 py-1 rounded-md'>View Projects</Link><Link to="../Resume.pdf" reloadDocument download="/" className='bg-[#6d05d1] px-2 py-1 hover:bg-[#4b0291] rounded-md'>Resume</Link><Link to="/contact" className='bg-[red] hover:bg-[#b40000] px-2 py-1 rounded-md'>Contact Me</Link></div></div>
-         <img className='h-50 rounded-md' src="./images/me.jpg" alt="" />
+         <div className="buttons max-lg:flex-col flex justify-center gap-4"><Link to="/projects" className='bg-[green] hover:bg-[#015c01] px-2 py-1 rounded-md'>View Projects</Link><Link to="./documents/Resume.pdf" reloadDocument download="/" className='bg-[#6d05d1] px-2 py-1 hover:bg-[#4b0291] rounded-md'>Resume</Link><Link to="/contact" className='bg-[red] hover:bg-[#b40000] px-2 py-1 rounded-md'>Contact Me</Link></div></div>
+         <img className='h-50 rounded-md' src=" ./images/me.jpg" alt="" />
       
     </div>
   )
