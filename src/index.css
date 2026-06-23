@@ -1,0 +1,83 @@
+*{
+    transition: all 0.3s;
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+    /* Width of vertical scrollbar */
+    height: 6px;
+    /* Height of horizontal scrollbar */
+}
+
+/* ___ 2. The Track (Background) ___ */
+::-webkit-scrollbar-track {
+    background: #1e1e1e;
+    /* Dark background */
+    border-radius: 0;
+    /* REMOVED: Ensures sharp corners */
+}
+
+/* ___ 3. The Thumb (Draggable handle) ___ */
+::-webkit-scrollbar-thumb {
+    background: #444444;
+    /* Dark Grey */
+    border-radius: 0;
+    /* REMOVED: Ensures sharp corners */
+    border: none;
+    /* REMOVED: No borders/gaps */
+}
+
+/* ___ 4. Hover State ___ */
+::-webkit-scrollbar-thumb:hover {
+    background: #666666;
+    /* Lighter grey on hover */
+}
+
+/* ___ 5. Hiding the Arrows/Buttons ___ */
+/* This explicitly hides the top/bottom arrows */
+::-webkit-scrollbar-button {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+/* ___ 6. Corner (Intersection of vertical/horizontal) ___ */
+::-webkit-scrollbar-corner {
+    background: #1e1e1e;
+    /* Matches the track background */
+}
+
+
+body{
+    background-color: #0D1117;
+}
+
+.about *{
+    font-family: 'SN Pro';
+}
+
+.contact a{
+    font-family: 'SN Pro';
+}
+
+.head:hover{
+    transform: translateY(-4px);
+    cursor:default;
+
+
+}
+
+.arrow:hover{
+    transform: rotate(45deg);
+}
+
+.token p{
+    background-color: black;
+    padding: 3px 8px;
+    border-radius: 10px;
+    cursor: default;
+}
+
+.token p:hover{
+    background-color: rgb(73 73 73);
+}
